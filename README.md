@@ -2,6 +2,8 @@
 
 Program Go sederhana untuk mengirim data cetak langsung ke printer thermal POS melalui USB tanpa melalui print spooler sistem operasi. Program membuka perangkat USB berdasarkan Vendor ID (VID) dan Product ID (PID), mencari endpoint USB `OUT`, lalu mengirim teks serta perintah potong kertas menggunakan protokol ESC/POS.
 
+Pelajari struktur byte, format perintah, QR Code, barcode, gambar raster, dan contoh buffer untuk ESP32-S3 melalui [dokumentasi dasar ESC/POS](docs/escpos.md).
+
 <p align="center">
   <img src="assets/taffware-usb-thermal-printer.jpg" alt="Printer thermal Taffware POS USB 58 mm" width="500">
 </p>
