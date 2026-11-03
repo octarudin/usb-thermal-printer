@@ -4,6 +4,16 @@ Program Go sederhana untuk mengirim data cetak langsung ke printer thermal POS m
 
 Pelajari struktur byte, format perintah, QR Code, barcode, gambar raster, dan contoh buffer untuk ESP32-S3 melalui [dokumentasi dasar ESC/POS](docs/escpos.md).
 
+## Receipt Designer GUI
+
+Repo ini juga menyediakan GUI lokal untuk mendesain struk Taffware POS-58. Editor mendukung teks, separator, daftar barang, total, logo, QR Code, feed kertas, preview 384 dot, template JSON, dan test print langsung.
+
+```bash
+go run ./cmd/receipt-designer
+```
+
+Browser akan membuka `http://127.0.0.1:8787`. Data desain tetap diproses secara lokal. Panduan lengkap tersedia pada [dokumentasi Receipt Designer](docs/receipt-designer.md).
+
 <p align="center">
   <img src="assets/taffware-usb-thermal-printer.jpg" alt="Printer thermal Taffware POS USB 58 mm" width="500">
 </p>
