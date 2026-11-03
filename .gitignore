@@ -1,0 +1,12 @@
+# Hasil kompilasi
+usb-thermal-printer
+usb-thermal-printer.exe
+printer-thermal
+printer-thermal.exe
+
+# Berkas editor dan sistem operasi
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
