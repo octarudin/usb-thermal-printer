@@ -8,10 +8,6 @@ Pelajari struktur byte, format perintah, QR Code, barcode, gambar raster, dan co
 
 Aplikasi GUI untuk menyusun template, melihat preview, menyimpan JSON, dan melakukan test print tersedia pada repo terpisah: [octarudin/receipt-designer-taffware](https://github.com/octarudin/receipt-designer-taffware).
 
-<p align="center">
-  <img src="assets/taffware-usb-thermal-printer.jpg" alt="Printer thermal Taffware POS USB 58 mm" width="500">
-</p>
-
 ## Spesifikasi perangkat
 
 Konfigurasi bawaan program dibuat untuk perangkat berikut:
@@ -29,6 +25,10 @@ Konfigurasi bawaan program dibuat untuk perangkat berikut:
 | Kertas | Kertas thermal POS lebar 58 mm |
 
 > **Catatan:** VID/PID `0416:5011` juga dapat digunakan oleh printer POS generik lain. Pastikan identitas USB perangkat sesuai sebelum menjalankan program. Perintah potong hanya bekerja jika printer dilengkapi auto-cutter.
+
+<p align="center">
+  <img src="assets/taffware-usb-thermal-printer.jpg" alt="Printer thermal Taffware POS USB 58 mm" width="400">
+</p>
 
 ## Persyaratan
 
