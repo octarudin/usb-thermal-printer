@@ -132,6 +132,12 @@ Printer akan mencetak:
 Cetak Direct USB dari Go Berhasil!
 ```
 
+<p align="center">
+  <img src="assets/hasil-cetak-direct-usb.jpg" alt="Hasil cetak direct USB dari program Go pada printer thermal POS-58" width="650">
+</p>
+
+<p align="center"><em>Hasil cetak langsung melalui USB pada printer thermal POS-58.</em></p>
+
 Setelah teks dicetak, program mengirim perintah potong kertas. Pada printer tanpa auto-cutter, kertas perlu disobek secara manual.
 
 ## Masalah umum
