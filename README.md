@@ -51,6 +51,14 @@ Konfigurasi bawaan program dibuat untuk perangkat berikut:
 
 Siapkan toolchain GCC, `pkg-config`, dan libusb 1.0, misalnya melalui MSYS2/MinGW. Printer juga harus memakai driver USB yang dapat diakses libusb, seperti WinUSB. Driver dapat dipilih dengan [Zadig](https://zadig.akeo.ie/).
 
+Pada Zadig, aktifkan **Options → List All Devices**, pilih **POS58 USB Printer**, lalu pastikan USB ID yang tampil adalah `0416:5011`. Pilih **WinUSB** sebagai driver tujuan dan tekan **Replace Driver**.
+
+<p align="center">
+  <img src="assets/zadig-winusb-pos58.png" alt="Zadig mengganti driver POS58 USB Printer dari usbprint menjadi WinUSB" width="650">
+</p>
+
+<p align="center"><em>Konfigurasi Zadig untuk printer thermal Taffware POS-58.</em></p>
+
 Mengganti driver printer ke WinUSB dapat membuat printer tidak tersedia untuk aplikasi yang memakai driver/spooler Windows biasa. Kembalikan driver sebelumnya jika printer perlu digunakan dengan cara tersebut.
 
 #### Linux
