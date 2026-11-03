@@ -8,22 +8,22 @@ Konfigurasi bawaan program dibuat untuk perangkat berikut:
 
 | Komponen | Spesifikasi |
 | --- | --- |
-| Jenis printer | Printer thermal receipt/POS yang kompatibel dengan ESC/POS |
+| Jenis printer | Printer thermal POS-58 yang kompatibel dengan ESC/POS |
 | Antarmuka | USB langsung melalui libusb |
 | Vendor ID | `0x0416` (Winbond Electronics Corp.) |
 | Product ID | `0x5011` |
-| Identitas yang umum terdeteksi | `POS80 Printer USB` atau printer POS generik |
+| Identitas perangkat | `POS58 Printer USB` atau printer POS-58 generik |
 | Perintah keluaran | Inisialisasi printer, cetak teks, dan potong kertas |
-| Kertas | Kertas thermal POS lebar 80 mm |
+| Kertas | Kertas thermal POS lebar 58 mm |
 
-> **Catatan:** VID/PID `0416:5011` juga digunakan oleh beberapa printer POS generik dengan model atau lebar kertas yang berbeda. Kertas 80 mm merupakan konfigurasi perangkat yang diasumsikan untuk proyek ini. Periksa label atau hasil self-test printer sebelum membeli kertas. Perintah potong hanya bekerja jika printer dilengkapi auto-cutter.
+> **Catatan:** VID/PID `0416:5011` juga dapat digunakan oleh printer POS generik lain. Pastikan identitas USB perangkat sesuai sebelum menjalankan program. Perintah potong hanya bekerja jika printer dilengkapi auto-cutter.
 
 ## Persyaratan
 
 ### Perangkat keras
 
 - Printer thermal USB yang mendukung perintah ESC/POS.
-- Kertas thermal POS yang sesuai dengan printer (80 mm pada konfigurasi proyek ini).
+- Kertas thermal POS lebar 58 mm.
 - Kabel USB dan adaptor daya printer.
 
 ### Perangkat lunak
