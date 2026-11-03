@@ -2,14 +2,18 @@
 
 Program Go sederhana untuk mengirim data cetak langsung ke printer thermal POS melalui USB tanpa melalui print spooler sistem operasi. Program membuka perangkat USB berdasarkan Vendor ID (VID) dan Product ID (PID), mencari endpoint USB `OUT`, lalu mengirim teks serta perintah potong kertas menggunakan protokol ESC/POS.
 
+![Printer thermal Taffware POS USB 58 mm](assets/taffware-usb-thermal-printer.jpg)
+
 ## Spesifikasi perangkat
 
 Konfigurasi bawaan program dibuat untuk perangkat berikut:
 
 | Komponen | Spesifikasi |
 | --- | --- |
+| Merek | Taffware |
 | Jenis printer | Printer thermal POS-58 yang kompatibel dengan ESC/POS |
 | Antarmuka | USB langsung melalui libusb |
+| Kecepatan cetak | Hingga 90 mm/detik |
 | Vendor ID | `0x0416` (Winbond Electronics Corp.) |
 | Product ID | `0x5011` |
 | Identitas perangkat | `POS58 Printer USB` atau printer POS-58 generik |
@@ -22,7 +26,7 @@ Konfigurasi bawaan program dibuat untuk perangkat berikut:
 
 ### Perangkat keras
 
-- Printer thermal USB yang mendukung perintah ESC/POS.
+- Printer thermal Taffware POS-58 USB yang mendukung perintah ESC/POS.
 - Kertas thermal POS lebar 58 mm.
 - Kabel USB dan adaptor daya printer.
 
