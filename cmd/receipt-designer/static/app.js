@@ -449,4 +449,3 @@ fetch("/api/info")
   .then((response) => response.json())
   .then((info) => showToast(`Siap · printer USB ${info.vendorID}:${info.productID}`))
   .catch(() => showToast("Backend lokal tidak dapat dihubungi.", "error"));
-

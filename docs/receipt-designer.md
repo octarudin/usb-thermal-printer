@@ -152,4 +152,3 @@ internal/
     ├── template.go     Generator template ke ESC/POS
     └── template_test.go
 ```
-
