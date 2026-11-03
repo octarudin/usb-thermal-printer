@@ -3,7 +3,6 @@ usb-thermal-printer
 usb-thermal-printer.exe
 printer-thermal
 printer-thermal.exe
-receipt-designer.exe
 
 # Berkas editor dan sistem operasi
 .idea/
