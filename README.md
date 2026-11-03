@@ -30,6 +30,8 @@ Konfigurasi bawaan program dibuat untuk perangkat berikut:
   <img src="assets/taffware-usb-thermal-printer.jpg" alt="Printer thermal Taffware POS USB 58 mm" width="400">
 </p>
 
+<p align="center"><em>Printer thermal Taffware POS-58 yang digunakan dalam proyek.</em></p>
+
 ## Persyaratan
 
 ### Perangkat keras
